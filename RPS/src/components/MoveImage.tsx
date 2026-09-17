@@ -1,6 +1,6 @@
-import paper from "../assets/paper.svg";
-import rock from "../assets/rock.svg";
-import scissors from "../assets/scissors.svg";
+import paper from "../assets/paper.png";
+import rock from "../assets/rock.png";
+import scissors from "../assets/scissors.png";
 import type { Move } from "../game/rules";
 
 const SOURCES: Record<Move, string> = { rock, paper, scissors };
